@@ -7,7 +7,7 @@ const text = "Hai! Cantik, apa kabar?";
 const text2 = "Aku harap kamu baik-baik saja";
 const text3 = "Aku ingin memberitahumu sesuatu";
 const text4 = "Aku sayang kamu";
-const text5 = "Melinda &hearts;";
+const text5 = "Melinda ♡";
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -35,7 +35,7 @@ onload = () => {
 
   button.classList.add("button-neon");
   button.classList.add("rounded");
-  button.textContent = "Click me &hearts;";
+  button.textContent = "Click me";
   document.body.appendChild(button);
   button.onclick = () => {
     //remove button
